@@ -17,9 +17,9 @@ mlflow_version: 2.16.0
 model_size_bytes: 1802811987
 model_uuid: b06e9c81acff49e0990cd94799897046
 signature:
-  inputs: '[{"type": "binary", "name": "image", "required": true}, {"type": "string",
-    "name": "text", "required": true}]'
-  outputs: '[{"type": "binary", "name": "pred_seg_mask", "required": true}, {"type":
-    "string", "name": "pred_text", "required": false}]'
+  inputs: '[{"type": "binary", "name": "image", "required": true}, {"type": "string", "name": "text", "required": true}]'
+  outputs: '[{"type": "binary", "name": "pred_seg_mask", "required": true}, {"type": "string", "name": "pred_text", "required": false}]'
   params: null
 utc_time_created: '2024-09-27 00:51:53.191138'
+metadata:
+  azureml.base_image: newValue
