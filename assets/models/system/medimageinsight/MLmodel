@@ -17,13 +17,9 @@ mlflow_version: 2.14.3
 model_size_bytes: 2465553032
 model_uuid: 303978b7303b453f99790fd3dae58493
 signature:
-  inputs: '[{"type": "binary", "name": "image", "required": false}, {"type": "string",
-    "name": "text", "required": false}]'
-  outputs: '[{"type": "string", "name": "image_features", "required": false}, {"type":
-    "string", "name": "text_features", "required": false}, {"type": "string", "name":
-    "scaling_factor", "required": false}]'
-  params: '[{"name": "image_standardization_jpeg_compression_ratio", "type": "integer",
-    "default": 75, "shape": null}, {"name": "image_standardization_image_size", "type":
-    "integer", "default": 512, "shape": null}, {"name": "get_scaling_factor", "type":
-    "boolean", "default": true, "shape": null}]'
+  inputs: '[{"type": "binary", "name": "image", "required": false}, {"type": "string", "name": "text", "required": false}]'
+  outputs: '[{"type": "string", "name": "image_features", "required": false}, {"type": "string", "name": "text_features", "required": false}, {"type": "string", "name": "scaling_factor", "required": false}]'
+  params: '[{"name": "image_standardization_jpeg_compression_ratio", "type": "integer", "default": 75, "shape": null}, {"name": "image_standardization_image_size", "type": "integer", "default": 512, "shape": null}, {"name": "get_scaling_factor", "type": "boolean", "default": true, "shape": null}]'
 utc_time_created: '2024-10-09 20:19:13.335408'
+metadata:
+  azureml.base_image: newValue
