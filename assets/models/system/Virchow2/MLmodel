@@ -21,7 +21,7 @@ metadata:
   base_model_task: embeddings
   is_acft_model: true
   is_finetuned_model: false
-mlflow_version: 2.13.2
+  azureml.base_image: newValuemlflow_version: 2.13.2
 model_size_bytes: 2525083692
 model_uuid: 60f9e8d90ec344589112026f81464b44
 signature:
