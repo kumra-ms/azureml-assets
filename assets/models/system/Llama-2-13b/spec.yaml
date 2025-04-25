@@ -33,22 +33,22 @@ tags:
   maas-finetuning: true
   SharedComputeCapacityEnabled: ""
   finetune_compute_allow_list:
-    - Standard_ND40rs_v2
-    - Standard_NC48ads_A100_v4
-    - Standard_NC96ads_A100_v4
-    - Standard_ND96asr_v4
-    - Standard_ND96amsr_A100_v4
+  - Standard_ND40rs_v2
+  - Standard_NC48ads_A100_v4
+  - Standard_NC96ads_A100_v4
+  - Standard_ND96asr_v4
+  - Standard_ND96amsr_A100_v4
   evaluation_compute_allow_list:
-    - Standard_NC12s_v3
-    - Standard_NC24s_v3
-    - Standard_ND40rs_v2
-    - Standard_ND96asr_v4
-    - Standard_ND96amsr_A100_v4
+  - Standard_NC12s_v3
+  - Standard_NC24s_v3
+  - Standard_ND40rs_v2
+  - Standard_ND96asr_v4
+  - Standard_ND96amsr_A100_v4
   inference_compute_allow_list:
-    - Standard_NC24s_v3
-    - Standard_ND40rs_v2
-    - Standard_ND96asr_v4
-    - Standard_ND96amsr_A100_v4
+  - Standard_NC24s_v3
+  - Standard_ND40rs_v2
+  - Standard_ND96asr_v4
+  - Standard_ND96amsr_A100_v4
   sku_to_num_replicas_map:
     Standard_NC24s_v3: 1
     Standard_ND40rs_v2: 4
@@ -63,8 +63,8 @@ tags:
     max_seq_length: "2048"
     ignore_mismatched_sizes: "false"
   inference_supported_envs:
-    - vllm
-    - ds_mii
+  - vllm
+  - ds_mii
   benchmark: "quality"
   notes: "notes.md"
   evaluation: "evaluation.md"
